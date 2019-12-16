@@ -12,6 +12,7 @@ class SwiperSample extends React.Component {
 			spaceBetween: 30,
 			containerClass: "swiper-container pb-5",
 			nested: true,
+			loop: true,
 			autoplay: {
 				delay: 5000,
 				disableOnInteraction: false,
