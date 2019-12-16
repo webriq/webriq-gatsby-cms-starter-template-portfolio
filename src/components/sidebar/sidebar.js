@@ -23,6 +23,7 @@ class SideBarMenu extends React.Component {
 			toggle: !this.state.toggle,
 		})
 	}
+
 	render() {
 		const style = {
 			overflow: "visible",
@@ -30,8 +31,11 @@ class SideBarMenu extends React.Component {
 			// disable touch highlighting on devices
 			WebkitTapHighlightColor: "rgba(0,0,0,0)",
 		}
+		// const wndw = window
+		// console.log(wndw)
 		return (
 			<SideBar
+				sidebarClassName="open-side"
 				sidebar={
 					<Menu /> // Menu list
 				}
@@ -41,7 +45,7 @@ class SideBarMenu extends React.Component {
 				styles={{
 					sidebar: {
 						background: "white",
-						width: window.innerWidth > 375 ? "300px" : "200px",
+						width: "300px",
 						position: "fixed",
 						zIndex: "3",
 						height: "100vh",

@@ -382,3 +382,9 @@ footer span {
     font-size: 100%;
   }
 }
+
+@media (max-width: 375px) {
+  .open-side {
+    width: 200px !important;
+  }
+}
