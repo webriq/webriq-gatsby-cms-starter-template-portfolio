@@ -24,7 +24,7 @@ function Pop(props) {
       <Modal show={show} onHide={handleClose} size="lg">
         <Modal.Header closeButton>
           <Modal.Title>
-            <h2>Get in touch</h2>
+            <h2 className="mb-0">Get in touch</h2>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

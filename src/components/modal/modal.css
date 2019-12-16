@@ -2,3 +2,14 @@
 	outline: none !important;
 	box-shadow: none !important;
 }
+.modal-header {
+	background-image: linear-gradient(to bottom right, #0658ff, #7646ff);
+}
+.modal-title {
+	padding: 0 25px;
+	color: #fff !important;
+}
+.close {
+	color: #fff !important;
+	opacity: 1 !important;
+}
