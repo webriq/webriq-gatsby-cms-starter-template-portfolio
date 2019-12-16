@@ -44,6 +44,7 @@ class SideBarMenu extends React.Component {
 						width: "300px",
 						position: "fixed",
 						zIndex: "3",
+						height: "100vh",
 					},
 					root: { position: "relative", overflow: "visible" },
 					overlay: { backgroundColor: "rgba(0, 0, 0, 0.65)", zIndex: 2 },

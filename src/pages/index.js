@@ -50,12 +50,12 @@ class IndexPage extends React.Component {
             </div>
           </div>
         </div>
-        <div className="our-work">
+        <div className="our-work pt-5">
           <div className="subheader">
             <h3 data-aos="fade-down" data-aos-duration="600">
               Our Works
             </h3>
-            <hr data-aos="fade" />
+            <hr data-aos="fade" className="mx-auto" />
             <p
               className="text-black-50 subheading"
               data-aos="fade-up"

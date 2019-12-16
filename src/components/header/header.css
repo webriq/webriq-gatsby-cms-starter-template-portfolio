@@ -14,6 +14,9 @@
 .is-sticky .btn-toggle {
   color: #465765 !important;
 }
+.is-sticky svg g {
+  stroke: #37434d;
+}
 
 #sticky-wrapper {
   position: relative;
