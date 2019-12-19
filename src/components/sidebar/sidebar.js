@@ -2,6 +2,7 @@ import React from "react"
 import SideBar from "react-sidebar"
 import { Motion, spring, presets } from "react-motion"
 import Menu from "./menu"
+import Modal from "../modal/modal"
 
 class SideBarMenu extends React.Component {
 	constructor(props) {
@@ -112,6 +113,9 @@ class SideBarMenu extends React.Component {
 						</Motion>
 					</svg>
 				</h2>
+				<div className="float-right mr-4 hide-575">
+					<Modal className="nav-link btn btn-primary text-uppercase float-left" />
+				</div>
 			</SideBar>
 		)
 	}

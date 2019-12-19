@@ -377,6 +377,12 @@ footer span {
     text-align: center;
   }
 }
+
+@media (max-width: 576px) {
+  .hide-575 {
+    display: none !important;
+  }
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
