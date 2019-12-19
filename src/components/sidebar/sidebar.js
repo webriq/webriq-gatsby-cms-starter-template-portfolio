@@ -36,10 +36,13 @@ class SideBarMenu extends React.Component {
 		// console.log(wndw)
 		return (
 			<SideBar
-				sidebarClassName="open-side"
+				sidebarClassName={
+					this.state.sidebarOpen ? "open-side" : "p-absolute open-side"
+				}
 				sidebar={
 					<Menu /> // Menu list
 				}
+				overlayClassName="test"
 				open={this.state.sidebarOpen}
 				onSetOpen={this.onSetSidebarOpen}
 				pullRight={this.state.sidebarpullRight}

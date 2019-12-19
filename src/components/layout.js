@@ -20,13 +20,13 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div style={{ overflow: "hidden" }}>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
         <Footer />
       </div>
-    </>
+    </div>
   )
 }
 
